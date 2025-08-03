@@ -21,7 +21,12 @@ class Program
             case "2":
                 TicketPriceCalculator.Run();
                 break;
-
+            case "3":
+                TriangleTypeIdentifier.Run();
+                break;
+            default:
+                Console.WriteLine("Invalid choice.");
+                break;
         }
 
     }
