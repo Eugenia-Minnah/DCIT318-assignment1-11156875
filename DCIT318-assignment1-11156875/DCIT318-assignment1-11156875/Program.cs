@@ -13,5 +13,13 @@ class Program
         Console.Write("Enter your choice (1-3): ");
         string choice = Console.ReadLine();
 
+        switch (choice)
+        {
+            case "1":
+                GradeCalculator.Run();
+                break;
+            
+        }
+
     }
-}
+    }
