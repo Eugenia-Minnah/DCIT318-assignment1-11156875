@@ -21,6 +21,7 @@ class Program
             case "2":
                 TicketPriceCalculator.Run();
                 break;
+
         }
 
     }
